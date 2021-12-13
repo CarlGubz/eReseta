@@ -1,0 +1,157 @@
+/***** HOMEPAGE****/
+
+body {
+  background-color: #1b262c;
+  color: white;
+  text-align: left;
+}
+
+html {
+  font-family: Arial;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 70px;
+  margin-bottom: 20 px;
+  text-align: left;
+  margin-left: 240px;
+  font-size: 72px;
+}
+
+h3 {
+  line-height: 1.5;
+  font-size: 45px;
+}
+
+h2,
+h4,
+h3,
+p {
+  margin-left: 240px;
+}
+
+p {
+  text-align: justify;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+h4 {
+  margin-top: 30px;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#footer {
+  margin-left: 500px;
+  margin-top: 150px;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  width: 70%;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  margin-top: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: orange;
+}
+
+ul.topnav li a.active {
+  background-color: orange;
+}
+
+ul.topnav li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/****************USER DATA **********/
+
+#userdatatable {
+  font-size: 20px;
+}
+
+.table {
+  width: 100%;
+}
+
+/****************REGISTRATION******/
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+/*************READ TAG**********/
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+td.lf {
+  padding-left: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
